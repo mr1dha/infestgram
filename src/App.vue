@@ -1,0 +1,101 @@
+<template>
+  <router-view/>
+</template>
+
+<style>
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: #656fe421;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  color: #525f7f;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.625rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 15px;
+  transition: all 0.15s ease;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5e72e4;
+  border-color: #5e72e4;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.btn:hover {
+  box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  transform: translateY(-1px);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3d55df;
+  border-color: #324cdd;
+}
+
+.btn-grey {
+  background: var(--bs-gray-200);
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(35deg, #5e72e4, #825ee4) !important;
+}
+
+.bg-gradient-danger {
+  background: linear-gradient(35deg, #f5365c, #f56036) !important;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(35deg, #2dce89, #2dcecc) !important;
+}
+
+[class*="btn-outline-"] {
+  border-width: 1px;
+}
+
+.btn-outline-primary {
+  color: #5e72e4;
+  border-color: #5e72e4;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #5e72e4;
+  border-color: #5e72e4;
+}
+
+.btn-outline-success {
+  color: #2dce89;
+  border-color: #2dce89;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #2dce89;
+  border-color: #2dce89;
+}
+
+.btn-outline-danger {
+  color: #f5365c;
+  border-color: #f5365c;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #f5365c;
+  border-color: #f5365c;
+}
+
+</style>
